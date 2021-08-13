@@ -21,6 +21,10 @@ background-image: linear-gradient(45deg, #FFFB7D 0%, #85FFBD 100%);
   width: 100%;
   z-index: 2;
 }
+embed {
+  min-height: 1000px;
+  width: 600px;
+}
 .banner #form-fill{
   z-index: 1;
   width: 100%;
@@ -67,10 +71,9 @@ background-image: linear-gradient(45deg, #FFFB7D 0%, #85FFBD 100%);
 .banner button:hover {
   transform: scale(1.2);
 }
-.banner #form-fill{
-  position: relative;
-  z-index: 3;
+.banner #form-fill {
   width: 100%;
+  z-index: 1;
   text-align: center;
 }
 .banner .content1 {
